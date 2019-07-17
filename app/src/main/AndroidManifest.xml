@@ -9,8 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MyProfile"></activity>
-        <activity android:name=".AboutALC" />
+        <activity android:name=".AboutALC"></activity>
+        <activity android:name=".MyProfile" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,5 +23,5 @@
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
     </application>
-   uses-permission android:name="android.permission.INTERNET
+
 </manifest>

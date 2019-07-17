@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ALC4 Phase 1</string>
+    <string name="welcome_to_alc_4_0">Welcome to ALC 4.0</string>
+    <string name="my_profile">MY PROFILE</string>
+    <string name="about_alc">ABOUT ALC</string>
+    <string name="textview">TextView</string>
+    <string name="profile_image_description">Profile Image</string>
+    <string name="my_name">Ngwa Sedrick Meh</string>
+    <string name="Track">Track :  Android</string>
+    <string name="Country">Country :  Cameroon</string>
+    <string name="email">Email :  nsedrick101@gmail.com</string>
+    <string name="phone_number">Phonenumber : +237670471866</string>
+    <string name="slack_user_name">Slack Username :  @nSedrickm</string>
+    <string name="_237670471866">Phone number :  +237670471866</string>
+</resources>

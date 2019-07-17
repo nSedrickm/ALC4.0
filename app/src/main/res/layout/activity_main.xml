@@ -12,14 +12,18 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
+        android:layout_marginBottom="154dp"
         android:fontFamily="@font/lobster"
         android:text="@string/welcome_to_alc_4_0"
         android:textAlignment="center"
         android:textAppearance="@android:style/TextAppearance.Material.Display1"
         android:textSize="38sp"
+        app:layout_constraintBottom_toTopOf="@+id/to_activity_2"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="spread_inside" />
 
     <Button
         android:id="@+id/to_activity_2"
@@ -27,8 +31,9 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
 
-        android:layout_marginTop="269dp"
-        android:layout_marginBottom="44dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="154dp"
+        android:layout_marginEnd="100dp"
         android:background="@android:color/holo_orange_light"
         android:fontFamily="@font/berkshire_swash"
         android:text="@string/about_alc"
@@ -36,21 +41,19 @@
         android:textColor="@android:color/black"
         android:textSize="24sp"
         android:typeface="serif"
-        app:layout_constraintBottom_toTopOf="@+id/to_activity_3"
-        app:layout_constraintEnd_toEndOf="@+id/to_activity_3"
-        app:layout_constraintStart_toStartOf="@+id/to_activity_3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title_textView"
         tools:background="@android:color/holo_orange_light" />
 
     <Button
         android:id="@+id/to_activity_3"
         style="@android:style/Widget.Button"
-        android:layout_width="211dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="44dp"
-        android:layout_marginEnd="100dp"
-        android:layout_marginBottom="236dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginBottom="8dp"
         android:background="@android:color/holo_orange_light"
         android:fontFamily="@font/berkshire_swash"
         android:text="@string/my_profile"
@@ -60,8 +63,10 @@
         android:textSize="26sp"
         android:typeface="serif"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/to_activity_2" />
+        app:layout_constraintEnd_toEndOf="@+id/to_activity_2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/to_activity_2"
+        app:layout_constraintTop_toBottomOf="@+id/to_activity_2"
+        app:layout_constraintVertical_bias="0.107" />
 
 </android.support.constraint.ConstraintLayout>
